@@ -1,0 +1,5 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo "Rodando o lint para verificar a mensagem de commit"
+npx commitlint --edit $1
