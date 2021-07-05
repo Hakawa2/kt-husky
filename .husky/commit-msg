@@ -1,7 +1,7 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-echo "* Tipos permitidos [build, chore, ci, docs, feat, fix, perf, refactor, revert, style, test]*"
+echo "* Tipos permitidos [build, chore, ci, docs, feat, fix, perf, refactor, revert, style, test, wip]*"
 
 echo "* Exemplo de um bom commit chore: evolução cartão tenda"
 npx commitlint --edit $1
