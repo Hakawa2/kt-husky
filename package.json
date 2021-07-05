@@ -1,0 +1,25 @@
+{
+  "name": "kt-husky",
+  "version": "1.0.0",
+  "description": "",
+  "main": "commitlint.config.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "husky": "^7.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hakawa2/kt-husky.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hakawa2/kt-husky/issues"
+  },
+  "homepage": "https://github.com/Hakawa2/kt-husky#readme"
+}
