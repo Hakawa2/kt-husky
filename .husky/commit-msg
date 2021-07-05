@@ -1,5 +1,7 @@
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-echo "Rodando o lint para verificar a mensagem de commit"
+echo "* Tipos permitidos [build, chore, ci, docs, feat, fix, perf, refactor, revert, style, test]*"
+
+echo "* Exemplo de um bom commit chore: evolução cartão tenda"
 npx commitlint --edit $1
